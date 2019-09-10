@@ -8,3 +8,8 @@ Taylor Gross
 body{
     background-color: dimgray;
 }
+
+div{
+    background-color:white;
+    width:75%;
+}
