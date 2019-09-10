@@ -15,3 +15,8 @@ div{
     margin:auto;
     text-align:center;
 }
+
+#Logo{
+    float: left;
+    width: 10%;
+}
