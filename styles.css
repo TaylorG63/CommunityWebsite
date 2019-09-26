@@ -13,16 +13,10 @@ body{
     background-color: dimgray;
 }
 
-div{
-    background-color:white;
-    width:75%;
-    margin:auto;
-    text-align:center;
-}
 
 #Logo{
-    float: left;
-    width: 10%;
+    display: block;
+    width: 100%;
 }
 
 #textArea{
@@ -32,7 +26,7 @@ div{
 #navBar{
     background-color: red;
     height: 100vh;
-    width: 10vh;
+    width: 12vh;
 }
 
 #theForm{
@@ -41,4 +35,11 @@ div{
 
 #footerBar{
     background-color: blue;
+}
+
+#formContainer{
+    flex-grow: 1;
+    height: 100vh;
+    width: 100vh;
+    background-color: black;
 }
