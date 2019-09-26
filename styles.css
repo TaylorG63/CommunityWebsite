@@ -7,6 +7,11 @@ Taylor Gross
 
 body{
     background-color: green;
+    position:absolute;
+}
+
+div#navBar{
+    margin-bottom:100px;
 }
 
 div{
@@ -19,4 +24,26 @@ div{
 #Logo{
     float: left;
     width: 10%;
+}
+
+body div form#contactUsForm *{
+    display:block;
+}
+
+form label, textarea{
+    padding-left:100px;
+    position:relative;
+    left: 1;
+}
+
+form textarea{
+    resize:none;
+}
+form label{
+    text-align:left;
+    padding-left:100px;
+    padding-top:15px;
+}
+button{
+    margin-top:15px;
 }
